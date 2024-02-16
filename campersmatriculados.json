@@ -1,1 +1,102 @@
-[]
+[
+    {
+        "documento": "12345",
+        "nombre": "gsg",
+        "apellido": "sdgs",
+        "direccion": "gsdgs",
+        "acudiente": "gsg",
+        "telefono": 56465,
+        "estado": "inscricto",
+        "nota": 75.0
+    },
+    {
+        "documento": "12345",
+        "nombre": "gsg",
+        "apellido": "sdgs",
+        "direccion": "gsdgs",
+        "acudiente": "gsg",
+        "telefono": 56465,
+        "estado": "inscricto",
+        "nota": 70.0
+    },
+    {
+        "documento": "12345",
+        "nombre": "gsg",
+        "apellido": "sdgs",
+        "direccion": "gsdgs",
+        "acudiente": "gsg",
+        "telefono": 56465,
+        "estado": "inscricto",
+        "nota": 72.5
+    },
+    {
+        "documento": "1234",
+        "nombre": "tfyhfdg",
+        "apellido": "d",
+        "direccion": "hgdfhg",
+        "acudiente": "fd",
+        "telefono": 564,
+        "estado": "inscricto",
+        "nota": 75.0
+    },
+    {
+        "documento": "1234",
+        "nombre": "tfyhfdg",
+        "apellido": "d",
+        "direccion": "hgdfhg",
+        "acudiente": "fd",
+        "telefono": 564,
+        "estado": "inscricto",
+        "nota": 70.5
+    },
+    {
+        "documento": "1234",
+        "nombre": "tfyhfdg",
+        "apellido": "d",
+        "direccion": "hgdfhg",
+        "acudiente": "fd",
+        "telefono": 564,
+        "estado": "inscricto",
+        "nota": 75.0
+    },
+    {
+        "documento": " 1096539216",
+        "nombre": " juan david",
+        "apellido": " ramirez saavedra",
+        "direccion": " carrera 31",
+        "acudiente": " marina",
+        "telefono": 54894264,
+        "estado": "inscricto",
+        "nota": 75.0
+    },
+    {
+        "documento": "1234567",
+        "nombre": "faef",
+        "apellido": "aef",
+        "direccion": "aef",
+        "acudiente": "aef",
+        "telefono": 534,
+        "estado": "inscricto",
+        "nota": 72.5
+    },
+    {
+        "documento": "1234",
+        "nombre": "tfyhfdg",
+        "apellido": "d",
+        "direccion": "hgdfhg",
+        "acudiente": "fd",
+        "telefono": 564,
+        "estado": "inscricto",
+        "nota": 65.0
+    },
+    {
+        "documento": "1234",
+        "nombre": "tfyhfdg",
+        "apellido": "d",
+        "direccion": "hgdfhg",
+        "acudiente": "fd",
+        "telefono": 564,
+        "estado": "inscricto",
+        "nota": 80.0
+    }
+]

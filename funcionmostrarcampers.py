@@ -2,6 +2,7 @@ import gestion
 
 
 def mostrarcampersmatriculados():
-    aprobados=list(gestion.guardardatos("campersmatriculados.json"))
+    aprobados=list(gestion.cargardatos("campersmatriculados.json"))
+    print("\tCampers matriculados")
     gestion.guardardatos(aprobados, "campersmatriculados.json")
-    return aprobados
+    

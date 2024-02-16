@@ -5,15 +5,15 @@
 
 def menuprincipal():
     print("...............................")
-    print("\t.:BIENVENIDO:.")
-    print(".........A CAMPUSLANDS.........")
+    print(chr(27)+"[1;33m"+"\t.:BIENVENIDO A:."+'\033[0;m') 
+    print(chr(27)+"[1;33m"+"\t.:CAMPUSLAND:."+'\033[0;m')
+    print("...............................")
     print("""
     1-> Coordinador
     2-> Trainer
     3-> Camper
     4-> inscribite   
-    5-> salida
-          """)
+    """)
     opc=int(input("\telije tu categoria"))
     return opc
 
