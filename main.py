@@ -1,4 +1,4 @@
-import menus,funcioncampers,notacampers
+import menus,funcioncampers,notacampers,funcionmostrarcampers
 
 
 ################################################################################################# opcciones del menu principal
@@ -18,7 +18,9 @@ while(True):
                         opcion=int(input("\tingrese la actividad que vas a realizar"))
                         if opcion==1:
                             notacampers.insertarnota()
-                            break
+                            
+                        elif opcion==2:
+                            funcionmostrarcampers.mostrarcampersmatriculados()
                         
                 else:
                     print("\tno eres un coordinador campus")

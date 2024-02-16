@@ -8,5 +8,15 @@
         "telefono": 564,
         "estado": "inscricto",
         "nota": 80
+    },
+    {
+        "documento": "1098815533",
+        "nombre": "luis david",
+        "apellido": "gamboa jimenez",
+        "direccion": "prados del mutis",
+        "acudiente": "hasblei",
+        "telefono": 3221546,
+        "estado": "inscricto",
+        "nota": "None"
     }
 ]

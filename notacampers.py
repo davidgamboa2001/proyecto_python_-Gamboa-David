@@ -3,23 +3,38 @@ import gestion
 
 
 def insertarnota():
-    mostrar=(gestion.cargardatos("inscripccion.json"))
-    if mostrar==False:
-        print("no hay campers registrados")
+    ingresado=gestion.cargardatos("inscripcion.json")
+    if ingresado==False:
+        print("no se encontro datos del ingresado")
     else:
-        
+        documento=int(input("Ingresar el documento del registrado para evaluar"))
 
-        documento=(input("ingrese el documento del camper para aprobar"))
-                
-        for i in mostrar:
-                if i["documento"] == documento:
-                    nota = int(input("Digita la nota: "))
-                    i["nota"] = nota
+        for usuario in ingresado:
+
+            if usuario["documento"]== documento:
+                print("\tevaluar")
+                nota1=int(input("nota teorica"))
+                print("........................")
+                nota2=int(input("nota practica"))
+                print("-------------------------")
+                notatotal= (nota1+nota2)/2
+                usuario["nota"]=notatotal
+
+                if notatotal>= 60 :
+                    aprobado=list(gestion.cargardatos("campersmatriculados.json"))
+                    aprobado.append(usuario)
+                    gestion.guardardatos(aprobado,"campersmatriculados.json")
+                    print("El Usuario Aprobo y fue matriculado")
                 else:
-                    print("no es")
-        
+                    print("El Usiario no fue Aprobado")    
+            else:
+                print("Usuario no encontrado")
 
-        gestion.guardardatos(mostrar,"inscripccion.json")
-        print()
-        print("\texito!")
-        input()
+    gestion.guardardatos(ingresado,"inscripcion.json")
+    print()
+    print("\tEXITO")
+
+                                            
+
+
+ 

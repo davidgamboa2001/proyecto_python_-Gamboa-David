@@ -20,4 +20,3 @@ def incripcion():
     print("\tInscripción exitosa!")
     input()
     
-   

@@ -2,7 +2,6 @@ import json
 
 
 def cargardatos(archivo):
-
     try:
         with open(archivo,"r")as file:
             respuesta=json.load(file)
