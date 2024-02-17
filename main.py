@@ -1,4 +1,5 @@
-import menus,funcioncampers,notacampers,funcionmostrarcampers
+import funcioncampers,notacampers,funcionmostrarcampers
+import menus
 
 
 ################################################################################################# opcciones del menu principal
@@ -21,6 +22,10 @@ while(True):
                             
                         elif opcion==2:
                             funcionmostrarcampers.mostrarcampersmatriculados()
+                            opc=input("marque S(si) para agregarles una ruta y salon").upper
+                            if opc=="S":
+                                print
+                            
                         
                 else:
                     print("\tno eres un coordinador campus")

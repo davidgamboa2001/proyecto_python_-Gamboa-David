@@ -4,5 +4,11 @@ import gestion
 def mostrarcampersmatriculados():
     aprobados=list(gestion.cargardatos("campersmatriculados.json"))
     print("\tCampers matriculados")
-    gestion.guardardatos(aprobados, "campersmatriculados.json")
+    for i in aprobados:
+       documento=i["documento"]
+       nombre = i["nombre"]
+       print(f"{documento}-{nombre}")
+        
+     
+    
     

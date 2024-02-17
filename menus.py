@@ -29,7 +29,7 @@ def menucoordinador():
     print("""
 
     1-> nota para nuevos campers y cambio de estado
-    2-> matricula de campers
+    2-> mostrar campers matriculados
     3-> control del camper 
     4-> control de treiner
     0-> atras

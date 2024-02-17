@@ -1,52 +1,42 @@
 [
     {
-        "documento": "1234",
-        "nombre": "tfyhfdg",
-        "apellido": "d",
-        "direccion": "hgdfhg",
-        "acudiente": "fd",
-        "telefono": 564,
-        "estado": "inscricto",
-        "nota": 80.0
-    },
-    {
         "documento": "1098815533",
-        "nombre": "luis david",
-        "apellido": "gamboa jimenez",
-        "direccion": "prados del mutis",
-        "acudiente": "hasblei",
-        "telefono": 3221546,
-        "estado": "inscricto",
-        "nota": "None"
-    },
-    {
-        "documento": "12345",
-        "nombre": "gsg",
-        "apellido": "sdgs",
-        "direccion": "gsdgs",
-        "acudiente": "gsg",
-        "telefono": 56465,
-        "estado": "inscricto",
-        "nota": "None"
-    },
-    {
-        "documento": " 1096539216",
-        "nombre": " juan david",
-        "apellido": " ramirez saavedra",
-        "direccion": " carrera 31",
-        "acudiente": " marina",
-        "telefono": 54894264,
-        "estado": "inscricto",
-        "nota": 75.0
-    },
-    {
-        "documento": "1234567",
-        "nombre": "faef",
-        "apellido": "aef",
-        "direccion": "aef",
-        "acudiente": "aef",
-        "telefono": 534,
+        "nombre": "david",
+        "apellido": "gamboa",
+        "direccion": "prados mutis",
+        "acudiente": "hasbeilly",
+        "telefono": 3125743840,
         "estado": "inscricto",
         "nota": 72.5
+    },
+    {
+        "documento": "1098788534",
+        "nombre": "emerson",
+        "apellido": "jimenez",
+        "direccion": "cabecera",
+        "acudiente": "humebrto",
+        "telefono": 3122571482,
+        "estado": "inscricto",
+        "nota": 74.0
+    },
+    {
+        "documento": "789945",
+        "nombre": "marco",
+        "apellido": "polo",
+        "direccion": "mutis",
+        "acudiente": "sofia",
+        "telefono": 4168552,
+        "estado": "inscricto",
+        "nota": 60.0
+    },
+    {
+        "documento": "10123403920",
+        "nombre": "santiago",
+        "apellido": "mu\u00f1oz",
+        "direccion": "cabecera",
+        "acudiente": "fernando",
+        "telefono": 315345,
+        "estado": "inscricto",
+        "nota": 87.5
     }
 ]

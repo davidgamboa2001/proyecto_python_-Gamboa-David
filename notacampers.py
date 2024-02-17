@@ -11,7 +11,7 @@ def insertarnota():
         print("no se encontro datos del ingresado")
     else:
         documento=input("Ingresar el documento del registrado para evaluar :")
-
+        
         for usuario in ingresado:
 
             if usuario["documento"]== documento:
@@ -28,10 +28,10 @@ def insertarnota():
                     aprobado.append(usuario)
                     gestion.guardardatos(aprobado,"campersmatriculados.json")
                     print("El Usuario Aprobo y fue matriculado")
+                    
                 else:
                     print("El Usiario no fue Aprobado")    
-            else:
-                print("Usuario no encontrado")
+            
 
     gestion.guardardatos(ingresado,"inscripccion.json")
     print()
