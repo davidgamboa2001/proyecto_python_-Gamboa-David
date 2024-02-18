@@ -10,5 +10,11 @@
         "ruta": "java",
         "horario": "tarde",
         "salon": "sputnik"
+    },
+    {
+        "nombre": "fadf",
+        "ruta": "netcore",
+        "horario": "ma\u00f1ana",
+        "salon": "spunnitk"
     }
 ]

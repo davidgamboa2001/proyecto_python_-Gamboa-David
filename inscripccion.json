@@ -31,5 +31,16 @@
         "estado": "inscricto",
         "ruta": "",
         "nota": 45.0
+    },
+    {
+        "documento": "789456",
+        "nombre": "fadf",
+        "apellido": "fadf",
+        "direccion": "daf",
+        "acudiente": "fa",
+        "telefono": 5413541,
+        "estado": "inscricto",
+        "ruta": "",
+        "nota": 77.5
     }
 ]
