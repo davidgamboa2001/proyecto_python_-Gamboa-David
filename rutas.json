@@ -1,14 +1,14 @@
-[{
-    "ruta":"nodejs",
-    "modulos":["Introduccióna", "PSeInt", "Python"],
-    "salon":"Apollo",
-    "horario":"6am a 10 am"},
-
-{ "ruta":"nodejs",
-"modulos":["Introduccióna", "PSeInt", "Python"],
-"salon":"Apollo",
-"horario":"10am a 2 pm"
-}
+[
+    {
+        "nombre": "david",
+        "ruta": "node",
+        "horario": "ma\u00f1ana",
+        "salon": "artemis"
+    },
+    {
+        "nombre": "emerson",
+        "ruta": "java",
+        "horario": "tarde",
+        "salon": "sputnik"
+    }
 ]
-
-

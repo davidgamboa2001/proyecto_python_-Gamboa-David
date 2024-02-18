@@ -1,42 +1,35 @@
 [
     {
-        "documento": "1098815533",
+        "documento": "123",
         "nombre": "david",
         "apellido": "gamboa",
-        "direccion": "prados mutis",
+        "direccion": "prados",
         "acudiente": "hasbeilly",
-        "telefono": 3125743840,
+        "telefono": 123,
         "estado": "inscricto",
-        "nota": 72.5
+        "ruta": "",
+        "nota": 76.0
     },
     {
-        "documento": "1098788534",
+        "documento": "456",
         "nombre": "emerson",
         "apellido": "jimenez",
-        "direccion": "cabecera",
-        "acudiente": "humebrto",
-        "telefono": 3122571482,
+        "direccion": "prados",
+        "acudiente": "humberto",
+        "telefono": 456,
         "estado": "inscricto",
-        "nota": 74.0
+        "ruta": "",
+        "nota": 80.5
     },
     {
-        "documento": "789945",
-        "nombre": "marco",
-        "apellido": "polo",
-        "direccion": "mutis",
-        "acudiente": "sofia",
-        "telefono": 4168552,
+        "documento": "789",
+        "nombre": "humberto",
+        "apellido": "gamboa",
+        "direccion": "prados",
+        "acudiente": "def",
+        "telefono": 789,
         "estado": "inscricto",
-        "nota": 60.0
-    },
-    {
-        "documento": "10123403920",
-        "nombre": "santiago",
-        "apellido": "mu\u00f1oz",
-        "direccion": "cabecera",
-        "acudiente": "fernando",
-        "telefono": 315345,
-        "estado": "inscricto",
-        "nota": 87.5
+        "ruta": "",
+        "nota": 45.0
     }
 ]

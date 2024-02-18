@@ -1,4 +1,4 @@
-import funcioncampers,notacampers,funcionmostrarcampers
+import funcioncampers,notacampers,funcioncampers
 import menus
 
 
@@ -19,12 +19,16 @@ while(True):
                         opcion=int(input("\tingrese la actividad que vas a realizar"))
                         if opcion==1:
                             notacampers.insertarnota()
+                            input()
                             
                         elif opcion==2:
-                            funcionmostrarcampers.mostrarcampersmatriculados()
+                            funcioncampers.mostrarcampersmatriculados()
                             opc=input("marque S(si) para agregarles una ruta y salon").upper
-                            if opc=="S":
-                                print
+                            funcioncampers.agregaruta()
+
+                        elif opcion==3:
+                                funcioncampers.controlcampers()
+
                             
                         
                 else:
