@@ -1,4 +1,4 @@
-import funcioncampers,notacampers,funcioncampers
+import definiciones,notacampers,definiciones
 import menus
 
 
@@ -12,34 +12,45 @@ while(True):
             if pasword == 0:
                 menus.menuprincipal()
             else:
-##############################  ingreso dentro del menu del coordinador   ##########################                
+                
+#############  ingreso dentro del menu del coordinador   ##########################                
                 if pasword==ingreso:
                     menus.menucoordinador()                    
                     while True:
-                        opcion=int(input("\tingrese la actividad que vas a realizar"))
+                        opcion=int(input("\tingrese la actividad que vas a realizar: "))
                         if opcion==1:
                             notacampers.insertarnota()
-                            input()
+                            
                             
                         elif opcion==2:
-                            funcioncampers.mostrarcampersmatriculados()
-                            opc=input("marque S(si) para agregarles una ruta y salon").upper
-                            funcioncampers.agregaruta()
+                            definiciones.mostrarcampersmatriculados()
+                            print()
+                            opc=input("marque S(si) para agregarles una ruta y salon o N(no)para devolver al menu ").upper
+                            
+                
+                            definiciones.agregaruta()
+                            
 
                         elif opcion==3:
-                                funcioncampers.controlcampers()
+                                definiciones.controlcampers()
+                                opc=input("deseas modificar algun camper?: ")
+                                if opc=="si":
+                                    definiciones.actualizarcampers()
+                                
 
-                            
                         
-                else:
-                    print("\tno eres un coordinador campus")
-                    
+                        elif opcion==4:
+                                definiciones.agregartreiner()
+
+            print("\tno eres un coordinador campus")   
+                            
+                       
                     
                             
     elif(opc == 2):
         while True:
             ingreso=456
-            pasword=int(input("ingrese su contraseña de trainer, o ingrese 0 para salir"))
+            pasword=int(input("ingrese su contraseña de trainer, o ingrese 0 para salir: "))
             if pasword==0:
                 menus.menuprincipal()
             else:
@@ -48,13 +59,18 @@ while(True):
             
 
     elif (opc ==3):
-        print("")
-    
+        
+        menus.menucampers()
+        if opc==1:    
+            definiciones.dejarvernotascampers()
+        else:
+            menus.menuprincipal()    
+
     
     
     elif (opc == 4):
-        funcioncampers.incripcion()
-        print(" EXITO ")
+        definiciones.incripcion()
+        
         
             
                 

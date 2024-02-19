@@ -1,46 +1,35 @@
 [
     {
-        "documento": "123",
+        "documento": "1098815533",
         "nombre": "david",
         "apellido": "gamboa",
         "direccion": "prados",
-        "acudiente": "hasbeilly",
-        "telefono": 123,
-        "estado": "inscricto",
-        "ruta": "",
-        "nota": 76.0
+        "acudiente": "1564",
+        "telefono": 564165,
+        "estado": "None",
+        "ruta": "None",
+        "nota": 80.0
+    },
+    {
+        "documento": "123",
+        "nombre": "emerson",
+        "apellido": "gamboa",
+        "direccion": "faef",
+        "acudiente": "faef",
+        "telefono": 4,
+        "estado": "None",
+        "ruta": "None",
+        "nota": 66.5
     },
     {
         "documento": "456",
-        "nombre": "emerson",
-        "apellido": "jimenez",
-        "direccion": "prados",
-        "acudiente": "humberto",
-        "telefono": 456,
-        "estado": "inscricto",
-        "ruta": "",
-        "nota": 80.5
-    },
-    {
-        "documento": "789",
         "nombre": "humberto",
         "apellido": "gamboa",
-        "direccion": "prados",
-        "acudiente": "def",
-        "telefono": 789,
-        "estado": "inscricto",
-        "ruta": "",
-        "nota": 45.0
-    },
-    {
-        "documento": "789456",
-        "nombre": "fadf",
-        "apellido": "fadf",
-        "direccion": "daf",
-        "acudiente": "fa",
-        "telefono": 5413541,
-        "estado": "inscricto",
-        "ruta": "",
-        "nota": 77.5
+        "direccion": "fea",
+        "acudiente": "ea",
+        "telefono": 5641,
+        "estado": "None",
+        "ruta": "None",
+        "nota": 81.0
     }
 ]

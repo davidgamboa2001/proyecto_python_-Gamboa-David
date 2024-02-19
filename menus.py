@@ -14,7 +14,7 @@ def menuprincipal():
     3-> Camper
     4-> inscribite   
     """)
-    opc=int(input("\telije tu categoria"))
+    opc=int(input("\telije tu categoria: "))
     return opc
 
 ###############################################################################   menu coordinador
@@ -31,7 +31,8 @@ def menucoordinador():
     1-> nota para nuevos campers y cambio de estado
     2-> mostrar campers matriculados
     3-> control del camper 
-    4-> control de treiner
+    4-> agregar treiner
+    5-> control de treiners
     0-> atras
     """)
     
@@ -55,8 +56,17 @@ def menutrainer():
 ##############################################################################    menu camper
 
 
+def menucampers():
+    print("..............................")
+    print("\t.:CAMPUSLANDS:.")
+    print("..........CAMPERS.........")
+    print("")
 
+    print("""
 
+    1-> mi control
+    0-> atras
+    """)
 
 
 

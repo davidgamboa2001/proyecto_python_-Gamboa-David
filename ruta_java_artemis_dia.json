@@ -1,0 +1,11 @@
+[
+    {
+        "documento": "123",
+        "nombre": "emerson gamboa",
+        "ruta": "java",
+        "horario": "dia",
+        "salon": "artemis",
+        "treiner": "kare",
+        "estado": "cursando"
+    }
+]
