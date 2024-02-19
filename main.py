@@ -1,6 +1,6 @@
-import definiciones,notacampers,definiciones
+import notacampers
 import menus
-
+import definiciones
 
 ################################################################################################# opcciones del menu principal
 while(True):
@@ -15,8 +15,9 @@ while(True):
                 
 #############  ingreso dentro del menu del coordinador   ##########################                
                 if pasword==ingreso:
-                    menus.menucoordinador()                    
+                                       
                     while True:
+                        menus.menucoordinador()     
                         opcion=int(input("\tingrese la actividad que vas a realizar: "))
                         if opcion==1:
                             notacampers.insertarnota()
@@ -25,11 +26,13 @@ while(True):
                         elif opcion==2:
                             definiciones.mostrarcampersmatriculados()
                             print()
-                            opc=input("marque S(si) para agregarles una ruta y salon o N(no)para devolver al menu ").upper
-                            
-                
-                            definiciones.agregaruta()
-                            
+                            opc=input("marque S(si) para agregarles una ruta y salon o N(no)para devolver al menu ")
+                        
+                            if opc.lower()=="s":
+                                definiciones.agregaruta()
+                            elif opc.lower()=="n":
+                                continue
+
 
                         elif opcion==3:
                                 definiciones.controlcampers()
@@ -55,14 +58,16 @@ while(True):
                 menus.menuprincipal()
             else:
                 if pasword == ingreso:
-                    menus.trainer()   
+                    menus.menutrainer()
             
 
     elif (opc ==3):
         
         menus.menucampers()
-        if opc==1:    
+        opc=int(input("elije tu objetivio a realizar"))
+        if opc == 1:    
             definiciones.dejarvernotascampers()
+
         else:
             menus.menuprincipal()    
 

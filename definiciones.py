@@ -81,55 +81,29 @@ def agregaruta():
 
     for i in rutas:
 
-        if ruta=="node" and horario=="dia" and salon=="sputnik":
-            gestion.guardardatos(listadic,"ruta_node_sputnik_dia.json")  
-        elif ruta=="node"and horario=="tarde"and salon=="sputnik":
-            gestion.guardardatos(listadic,"ruta_node_sputnik_tarde.json")
-
-        elif ruta=="node" and horario=="dia" and salon=="apolo":
-            gestion.guardardatos(listadic,"ruta_node_apolo_dia.json")
-        elif ruta=="node"and horario=="tarde"and salon=="apolo":
-            gestion.guardardatos(listadic,"ruta_node_apolo_tarde.json")
-
-        elif ruta=="node" and horario=="dia" and salon=="artemis":
-            gestion.guardardatos(listadic,"ruta_node_artemis_dia.json") 
-        elif ruta=="node"and horario=="tarde"and salon=="artemis":
-            gestion.guardardatos(listadic,"ruta_node_artemis_tarde.json")
-       
-
-##################################################################################
-         
-        elif ruta=="java" and horario=="dia" and salon=="sputnik":
-            gestion.guardardatos(listadic,"ruta_java_sputnik_dia.json")  
-        elif ruta=="java"and horario=="tarde"and salon=="sputnik":
+        if ruta=="node" and horario=="dia" and salon=="sputnik" and "treiner"=="karen ariza":
+            gestion.guardardatos(listadic,"ruta_node_sputnik_dia.json") 
+        elif ruta=="java" and horario=="tarde" and salon=="sputnik" and "trainer"=="karen ariza":
             gestion.guardardatos(listadic,"ruta_java_sputnik_tarde.json")
+        elif ruta=="netcore" and horario=="tarde" and salon=="sputnik"and "treiner"=="karen ariza":
+            gestion.guardardatos(listadic,"ruta_netcore_sputnik_tarde.json") 
 
-        elif ruta=="java" and horario=="dia" and salon=="apolo":
-            gestion.guardardatos(listadic,"ruta_java_apolo_dia.json")
-        elif ruta=="java"and horario=="tarde"and salon=="apolo":
+        elif ruta=="node" and horario=="dia" and salon=="apolo" and "treiner"=="david jaimes":
+            gestion.guardardatos(listadic,"ruta_node_apolo_dia.json") 
+        elif ruta=="java" and horario=="tarde" and salon=="apolo" and "trainer"=="david jaimes":
             gestion.guardardatos(listadic,"ruta_java_apolo_tarde.json")
-
-        elif ruta=="java" and horario=="dia" and salon=="artemis":
-            gestion.guardardatos(listadic,"ruta_java_artemis_dia.json") 
-        elif ruta=="java"and horario=="tarde"and salon=="artemis":
+        elif ruta=="netcore" and horario=="tarde" and salon=="apolo"and "treiner"=="david jaimes":
+            gestion.guardardatos(listadic,"ruta_netcore_apolo_tarde.json") 
+        
+        elif ruta=="node" and horario=="dia" and salon=="artemis" and "treiner"=="camila pinto":
+            gestion.guardardatos(listadic,"ruta_node_artemis_dia.json") 
+        elif ruta=="java" and horario=="tarde" and salon=="artemis" and "trainer"=="camila pinto":
             gestion.guardardatos(listadic,"ruta_java_artemis_tarde.json")
+        elif ruta=="netcore" and horario=="tarde" and salon=="artemis"and "treiner"=="camila pinto":
+            gestion.guardardatos(listadic,"ruta_netcore_artemis_tarde.json") 
 
-    ############################################################################################333
-         
-        elif ruta=="netcore" and horario=="dia" and salon=="sputnik":
-            gestion.guardardatos(listadic,"ruta_netcore_sputnik_dia.json")  
-        elif ruta=="netcore"and horario=="tarde"and salon=="sputnik":
-            gestion.guardardatos(listadic,"ruta_netcore_sputnik_tarde.json")
 
-        elif ruta=="netcore" and horario=="dia" and salon=="apolo":
-            gestion.guardardatos(listadic,"ruta_netcore_apolo_dia.json")
-        elif ruta=="netcore"and horario=="tarde"and salon=="apolo":
-            gestion.guardardatos(listadic,"ruta_netcore_apolo_tarde.json")
-
-        elif ruta=="netcore" and horario=="dia" and salon=="artemis":
-            gestion.guardardatos(listadic,"ruta_netcore_artemis_dia.json") 
-        elif ruta=="netcore"and horario=="tarde"and salon=="artemis":
-            gestion.guardardatos(listadic,"ruta_netcore_artemis_tarde.json")
+       
         break
           
     menus.menucoordinador()
@@ -191,10 +165,9 @@ def agregartreiner():
 
     trainer=input("nombre del nuevo trainer: ")
     documento=input("documento del treiner: ")
-    salon=input("salon a dictar clase: ")
     ruta=input("ruta a enseñar: ")
 
-    diccionariotrainer={"trainer":trainer,"documento":documento,"salon":salon,"ruta":ruta}
+    diccionariotrainer={"trainer":trainer,"documento":documento,"ruta":ruta}
     agregar.append(diccionariotrainer)
     gestion.guardardatos(agregar,"trainer.json")   
     print()

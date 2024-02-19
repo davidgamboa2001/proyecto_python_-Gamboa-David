@@ -1,68 +1,35 @@
 [
     {
+        "documento": "1005369464",
+        "nombre": "Eder",
+        "apellido": "Castellanos",
+        "direccion": "la calle",
+        "acudiente": "mi mai",
+        "telefono": 0,
+        "estado": "None",
+        "ruta": "None",
+        "nota": 72.5
+    },
+    {
         "documento": "1098815533",
         "nombre": "david",
         "apellido": "gamboa",
         "direccion": "prados",
-        "acudiente": "1564",
-        "telefono": 564165,
+        "acudiente": "david",
+        "telefono": 236,
+        "estado": "None",
+        "ruta": "None",
+        "nota": 77.0
+    },
+    {
+        "documento": "123",
+        "nombre": "gsrfrs",
+        "apellido": "gsrg",
+        "direccion": "gsr",
+        "acudiente": "grs",
+        "telefono": 1354,
         "estado": "None",
         "ruta": "None",
         "nota": 77.5
-    },
-    {
-        "documento": "123",
-        "nombre": "emerson",
-        "apellido": "gamboa",
-        "direccion": "faef",
-        "acudiente": "faef",
-        "telefono": 4,
-        "estado": "None",
-        "ruta": "None",
-        "nota": 62.0
-    },
-    {
-        "documento": "456",
-        "nombre": "humberto",
-        "apellido": "gamboa",
-        "direccion": "fea",
-        "acudiente": "ea",
-        "telefono": 5641,
-        "estado": "None",
-        "ruta": "None",
-        "nota": 71.5
-    },
-    {
-        "documento": "1098815533",
-        "nombre": "david",
-        "apellido": "gamboa",
-        "direccion": "prados",
-        "acudiente": "1564",
-        "telefono": 564165,
-        "estado": "None",
-        "ruta": "None",
-        "nota": 80.0
-    },
-    {
-        "documento": "123",
-        "nombre": "emerson",
-        "apellido": "gamboa",
-        "direccion": "faef",
-        "acudiente": "faef",
-        "telefono": 4,
-        "estado": "None",
-        "ruta": "None",
-        "nota": 66.5
-    },
-    {
-        "documento": "456",
-        "nombre": "humberto",
-        "apellido": "gamboa",
-        "direccion": "fea",
-        "acudiente": "ea",
-        "telefono": 5641,
-        "estado": "None",
-        "ruta": "None",
-        "nota": 81.0
     }
 ]

@@ -46,9 +46,8 @@ def menutrainer():
 
     print("""
 
-    1-> nota para campers y cambio de estado
+    1-> mi horario
     2-> control del camper 
-    3-> control de treiner
     0-> atras
     """)
 
